@@ -4,15 +4,21 @@
     margin: 0;
 }
 
-header{
+nav{
     display: flex;
     justify-content: flex-end;
 }
 
-header ul{
+nav ul{
     display: flex;
     background-color: grey;
     list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 8px;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
 }
 
 
@@ -87,6 +93,16 @@ ul:nth-child(n+3) li{
     font-size: 20px;
 }
 
+.fa-th{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fa-expand-arrows-alt{
+    font-size: 20px;
+    margin-left: 5px;
+    padding-right: 5px;
+}
 
 
 
