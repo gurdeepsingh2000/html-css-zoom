@@ -32,7 +32,24 @@ nav ul{
 .img-container{
     flex-grow: 1;
     background-color: black;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 25px;
+    display: flex;
+}
 
+.img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.img{
+    max-width: 250px;
+    max-height: 150px;
+    width: calc(100% / 8);
+    margin: 5px;
+    position: relative;
 }
 
 .nav-bar{
@@ -105,10 +122,15 @@ ul:nth-child(n+3) li{
 }
 
 
+.img-container span{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+}
 
-
-
-
-
-
-
+.fa-microphone-slash{
+    font-size: 20px;
+}
